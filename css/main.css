@@ -1,3 +1,10 @@
+body,
+body * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
    
 }
@@ -10,12 +17,13 @@ main {
 }
 
 .left-column {
-    width: 40%;
+    width: 40%; /* calc(40% - 80px) */ 
     float: left;
+    padding: 40px;
     background-color: yellow;
 }
  .main-title {
-
+    font-size: 60px;
  }
 
  .bottom-links {
@@ -26,19 +34,16 @@ main {
  }
 
  .bottom-links > span {
-     background-color: aqua;
+    
  }
 
 .right-column {
-    width: 60%;
+    width: 60%; /* calc(60% - 120px) */
     float: left;
     background-color: pink;
+    padding: 60px;
 }
 
  .close {
-
-}
-
- .form {
 
 }
