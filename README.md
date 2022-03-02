@@ -11,7 +11,6 @@ This project is for educational porpuses only. Pull request are welcome. Thank y
 
 Site published at https: https://github.com/Ramas1985/3-sign-up
 
-Design: [Sign up](https://cdn.discordapp.com/attachments/648536139677958156/648860801997996052/day1dr.png)
 
 ## Project features
 
