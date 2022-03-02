@@ -5,16 +5,23 @@
  .form-row {
     display: inline-block;
     width: 100%;
+    margin-bottom: 40px;
  }
+
+ .form-row:last-of-type {
+   margin-bottom: 0; 
+}
 
  .form-row > label {
     display: inline-block;
     width: 100%;
+    margin-bottom: 10px;
  }
 
  .form-row > input {
     display: inline-block;
     width: 100%;
+    font-size: 20px;
  }
 
  .form-row > button {
@@ -28,3 +35,18 @@
 .form-row > a {
      
 }
+
+
+
+
+
+
+
+
+/* .form-row + .form-row (atsistums visi esantis pries ji elementai);
+    
+Su flexu atstumti elementai formoje (form elemente):
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    */
