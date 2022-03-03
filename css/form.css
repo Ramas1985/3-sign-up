@@ -1,39 +1,71 @@
-.form {
-   display: inline-block;
+ .form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 100%;
+  
+    /* arba display: inline-block;
+    width: 100%; */
+}
+  .form-row {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
    width: 100%;
-}
- .form-row {
-    display: inline-block;
+   
+    /* arba display: inline-block;
     width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 40px; */
  }
 
- .form-row:last-of-type {
-   margin-bottom: 0; 
+  .form-row.flex-row {
+   flex-direction: row;
+   gap: 25px;
+ 
+    /* arba .form-row:last-of-type {
+    flex-direction: row;
+    } */
 }
 
- .form-row > label {
-    display: inline-block;
+  .form-row > label {
+   text-transform: uppercase;
+   font-size: 14px;
+
+    /* arba display: inline-block;
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 10px; */
  }
 
- .form-row > input {
-    display: inline-block;
-    width: 100%;
+  .form-row > input {
     font-size: 20px;
+    border: none;
+    border-bottom: 1px solid #ccc;
  }
 
- .form-row > button {
-     
+  .form-row > button {
+    padding-left: 50px;
+    padding-right: 50px; 
+    line-height: 40px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    background: #015cda;
+    background: linear-gradient(90 deg, 
+    #234ad5 0%,  
+    #0265de 100%);
+    color: #fff;
 }
 
-.form-row > span {
-     
+ .form-row > span {
+    line-height: 40px;
+    font-size: 18px; 
 }
 
-.form-row > a {
-     
+ .form-row > a {
+    line-height: 40px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #015cda; 
 }
 
 
@@ -43,10 +75,4 @@
 
 
 
-/* .form-row + .form-row (atsistums visi esantis pries ji elementai);
-    
-Su flexu atstumti elementai formoje (form elemente):
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    */
+/* .form-row + .form-row (atsistums visi esantis pries ji elementai); */
