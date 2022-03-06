@@ -11,6 +11,7 @@ This project is for educational porpuses only. Pull request are welcome. Thank y
 
 Site published at https: https://github.com/Ramas1985/3-sign-up
 
+Design: [Sign up](https://ramas1985.github.io/3-sign-up/)
 
 ## Project features
 
