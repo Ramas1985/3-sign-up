@@ -37,9 +37,15 @@
  }
 
   .form-row > input {
+    line-height: 40px;
     font-size: 20px;
     border: none;
     border-bottom: 1px solid #ccc;
+ }
+
+ .form-row > input:: {
+   color: #ccc;
+   font-style: italic;
  }
 
   .form-row > button {
@@ -50,10 +56,14 @@
     border-radius: 20px;
     border: none;
     background: #015cda;
-    background: linear-gradient(90 deg, 
-    #234ad5 0%,  
-    #0265de 100%);
+    background: linear-gradient(47deg, #234ad5 0%, #0265de 100%);
     color: #fff;
+    box-shadow: 0 4px 8px 0 #0005;
+    cursor: pointer;
+}
+
+   .form-row > button:hover {
+     box-shadow: 0 4px 8px 0 #0008;
 }
 
  .form-row > span {
@@ -66,6 +76,9 @@
     font-size: 18px;
     text-decoration: none;
     color: #015cda; 
+}
+.form-row > a:hover {
+    text-decoration: underline;
 }
 
 
