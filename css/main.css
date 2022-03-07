@@ -50,6 +50,8 @@ main {
  
  .main-title {
     font-size: 60px;
+    line-height: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
  .bottom-links {
